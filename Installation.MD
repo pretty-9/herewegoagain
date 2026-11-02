@@ -20,6 +20,7 @@ source .venv/bin/activate
 pip install notebook ipykernel
 pip install numpy pandas matplotlib scikit-learn
 pip install tensorflow keras torch torchvision
+pip install seaborn
 ```
 
 For Theano (optional, legacy package):
