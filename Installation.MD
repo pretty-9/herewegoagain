@@ -72,7 +72,7 @@ Tip: Whenever you want to use Jupyter again, activate your virtual environment a
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-1. Install the remaining packages
+Install the remaining packages
 Open your terminal, activate your virtual environment, and run:
 
 PyTorch:
