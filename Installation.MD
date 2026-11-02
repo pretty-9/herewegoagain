@@ -69,3 +69,32 @@ pip install numpy pandas matplotlib scikit-learn tensorflow keras
 ```
 
 Tip: Whenever you want to use Jupyter again, activate your virtual environment and run `jupyter notebook`. You don't need to reinstall it.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+1. Install the remaining packages
+Open your terminal, activate your virtual environment, and run:
+
+PyTorch:
+pip install torch torchvision torchaudio
+
+
+Theano:
+
+The original Theano is discontinued and may not work with modern Python versions. For studying its functionality, you can try the maintained successor:
+pip install Theano-PyMC
+
+
+However, Theano-PyMC is also an older package and may have compatibility issues.
+2. Verify your installations
+Open Jupyter Notebook and execute:
+import tensorflow as tfimport kerasimport torchprint("TensorFlow:", tf.__version__)print("Keras:", keras.__version__)print("PyTorch:", torch.__version__)
+
+
+
+To check Theano separately:
+import theanoprint("Theano:", theano.__version__)
+
+
+
+If all imports execute without errors, the packages are available in your notebook's Python environment.
