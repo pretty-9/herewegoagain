@@ -3,6 +3,7 @@
 ```
 sudo apt update
 sudo apt install python3 python3-pip python3-venv
+sudo apt install python3-tk
 ```
 
 ### 2. Create and activate virtual environment
